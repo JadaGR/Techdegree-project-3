@@ -31,7 +31,7 @@ form,
 .newsletter {
     border: none;
     display: inline-block;
-
+    background-color: lightcyan;
 }
 
 
@@ -39,7 +39,7 @@ form,
 input,
 select {
     border-radius: 5px;
-    background-color: lightgrey;
+    background-color: lightgray;
     margin-bottom: 20px;
     border: none;
    
@@ -90,5 +90,49 @@ footer {
 
 }
  
+legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    
+}
+
+legend::before {
+    content: "";
+    width: 100%;
+    height: 10px;
+    background: black;
+    display: block;
+    margin-bottom: 10px;
 
 
+}
+
+.paragraph {
+    text-align: center;
+
+}
+
+/* media query */
+
+@media (min-width: 768px) {
+
+    h1 {
+        width: 100%;
+
+    }
+
+   form {
+    display: flex;
+    margin: auto;
+    width: 40%;
+
+   }
+  .contact {
+    display: flex;
+   
+
+    }
+    
+   
+}
