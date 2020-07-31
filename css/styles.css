@@ -141,19 +141,18 @@ margin-bottom: 10px;
     width: 40%;
 
    }
-  .contact {
-    display: flex;
-   
-
-    }
+  
     
-   .flex-pair,
-   .contact {
+   .flex-pair{
+        display: flex;
         flex-direction: row;
+        align-items: center;
+        
 
    }
 
-   .contact input {
+   .contact input,
+   .contact select {
         flex-grow: 1;
         flex-basis: 75%;
 
@@ -161,13 +160,16 @@ margin-bottom: 10px;
 
    .contact label {
         flex-basis: 25%;
-        height: 50px;
-        margin: auto 0;
+        height: 40px;
+        
 
    }
 
-   #telephone {
+   #zip {
     max-width: 25%;
+    
 
    }
+
+ 
 }
