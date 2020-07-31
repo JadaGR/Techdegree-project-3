@@ -1,6 +1,10 @@
 
 /* base styles */
 
+*{
+    box-sizing: border-box;
+
+}
 
 h1 {
     background-color: black;
@@ -143,5 +147,27 @@ margin-bottom: 10px;
 
     }
     
-   
+   .flex-pair,
+   .contact {
+        flex-direction: row;
+
+   }
+
+   .contact input {
+        flex-grow: 1;
+        flex-basis: 75%;
+
+   }
+
+   .contact label {
+        flex-basis: 25%;
+        height: 50px;
+        margin: auto 0;
+
+   }
+
+   #telephone {
+    max-width: 25%;
+
+   }
 }
