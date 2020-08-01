@@ -134,9 +134,11 @@ margin-bottom: 10px;
 input:focus,
 textarea:focus {
     background-color: lightskyblue;
-    
-
+    transition: 2s ease-in-out;
+  
 }
+
+
 
 /* media query */
 
