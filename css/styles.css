@@ -21,6 +21,11 @@ h2 {
 
 }
 
+body {
+
+    font-family: "Merriweather-Regular", sans-serif;
+}
+
 form,
 .contact {
     display: flex;
@@ -123,6 +128,13 @@ margin-bottom: 10px;
 
 .paragraph {
     text-align: center;
+
+}
+
+input:focus,
+textarea:focus {
+    background-color: lightskyblue;
+    
 
 }
 
